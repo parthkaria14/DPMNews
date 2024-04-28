@@ -1,0 +1,137 @@
+/* Top Bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('F:\DPMnews\src\news bg.png'); /* Replace 'your-background-image.jpg' with your actual image path */
+    background-size: cover;
+    background-position: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: 0.9; /* Adjust transparency as needed */
+}
+
+/* Body */
+body {
+    background-image: url('F:\DPMnews\src\bodybg.jpg'); /* Replace 'your-background-image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+     /* Adjust transparency as needed */
+}
+
+
+.category-selector {
+    display: flex;
+}
+
+.category-btn {
+    margin-right: 10px;
+    padding: 8px 16px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.category-btn.active {
+    background-color: #0056b3;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar input[type="text"]:focus {
+    border-color: #007bff;
+}
+
+.search-bar .search-btn {
+    padding: 8px 16px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar .search-btn:hover {
+    background-color: #218838;
+}
+
+/* News Item */
+.news-item {
+    margin-bottom: 20px;
+}
+
+/* Card */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Card Body */
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+    height: 200px ;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.card-text {
+    color: #555;
+    line-height: 1.6;
+}
+.card-img-top {
+    height: 200px; /* Set image height */
+    object-fit: cover; /* Cover image to fit container */
+    border-bottom: 1px solid #eee; /* Add border between image and body */
+}
+
+.card-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.card-link:hover {
+    color: #0056b3;
+}
+
+
+.btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+}
